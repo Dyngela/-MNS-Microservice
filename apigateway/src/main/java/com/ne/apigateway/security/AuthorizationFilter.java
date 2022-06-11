@@ -31,7 +31,7 @@ public class AuthorizationFilter extends AbstractGatewayFilterFactory<Authorizat
             ArrayList<String> userURI = new ArrayList<>();
 
             adminURI.add("http://localhost:8083/api/authentification/login");
-            userURI.add("http://localhost:8083/api/authentifica");
+            userURI.add("http://localhost:8083/api/authentification/login");
 
             String APITargeted = String.valueOf(exchange.getRequest().getURI());
 
